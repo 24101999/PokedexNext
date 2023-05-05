@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(55, 0, 255, 0.527);
+}
+.navbar ul {
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul a {
+  color: #000;
+  text-decoration: none;
+}
+.navbar ul a:hover {
+  color: rgba(0, 0, 0, 0.6352941176);
+}/*# sourceMappingURL=Navbar.module.css.map */

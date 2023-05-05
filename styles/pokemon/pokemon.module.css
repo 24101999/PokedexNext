@@ -1,0 +1,19 @@
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
+.infos {
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  gap: 4rem;
+}/*# sourceMappingURL=pokemon.module.css.map */

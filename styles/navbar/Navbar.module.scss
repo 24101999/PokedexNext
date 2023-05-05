@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(55, 0, 255, 0.527);
+
+  ul {
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    li {
+      list-style-type: none;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        color: #000000a2;
+      }
+    }
+  }
+}
