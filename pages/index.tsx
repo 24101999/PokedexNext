@@ -15,7 +15,7 @@ type propstype<T extends any> = T;
 
 export async function getStaticProps() {
   const data = await fetch(
-    "https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0"
+    "https://pokeapi.co/api/v2/pokemon?limit=25&offset=0"
   );
 
   // const
