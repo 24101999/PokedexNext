@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "../styles/home/Home.module.css";
-import { propstype } from "./TypeProps";
+// import { propstype } from "./TypeProps";
 import Link from "next/link";
 import { type } from "os";
 import { useState } from "react";
@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 // interface dados {
 //   name?: string;
 // }
+type propstype<T extends any> = T;
 
 export async function getStaticProps() {
   const data = await fetch(

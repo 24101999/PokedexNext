@@ -1,7 +1,8 @@
 import styles from "../styles/pokemon/pokemon.module.css";
 import { useRouter } from "next/router";
-import { propstype } from "./TypeProps";
+// import { propstype } from "./TypeProps";
 import Image from "next/image";
+type propstype<T extends any> = T;
 
 export async function getStaticPaths() {
   const data = await fetch(
